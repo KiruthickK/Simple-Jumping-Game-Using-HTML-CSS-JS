@@ -2,7 +2,7 @@ const express = require('express');
 
 const mysql = require('mysql');
 
-//for db connectivity
+//for db connectivity   edit this part
 const username = "root";
 const password = "root";
 const server = "localhost";
