@@ -12,4 +12,13 @@ This game uses MySql to store game scores, you have to edit the db name, usernam
 <li>Search "localhost:3000" in a browser to run the game</li>
 
 </ul>
+<h2>Game instructions</h2>
+press "c" to start the game
+Press "spacebar" or "mouse left click" to jump
+Press "x" to use "invisible ability" while the big block tries to hit you
+press "s" to activate super power(available if you have 20 points from last super power used and lasts for 5 seconds)
+If you have super power available the player color changes to rose
+press "p" to pause game
+
+<a href="https://youtu.be/3UGwnw-BXYk">Video demonstration of this game</a>
 <h3>Hope You enjoyed the game</h3>
