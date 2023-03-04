@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+}
+
+#about {
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+input {
+    background-color: cadetblue;
+    color: black;
+}
+
+input:active {
+    background-color: aquamarine;
+}
+
+input:hover {
+    background-color: rosybrown;
+}
+
+#login {
+    position: relative;
+    float: right;
+    padding: 20px;
+    background-color: chocolate;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 60px;
+    border: 1px solid black;
+}
+
+#signup {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: darkkhaki;
+    position: relative;
+    float: right;
+    margin-top: 200px;
+    margin-right: 40px;
+}

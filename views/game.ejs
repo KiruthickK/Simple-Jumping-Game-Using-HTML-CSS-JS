@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body onload="PageLoaded()">
+    <div id="leaderboard"></div>
+
+    <div class="game">
+        <div id="player"></div>
+        <div id="block"></div>
+        <div id="bigblock"></div>
+    </div>
+    <div id="show"></div>
+    <div id="info">
+        <button onclick="startgame()">Start</button>
+        <button onclick="pauseGame()">pauseGame</button>
+        <button onclick="startgame()">continue</button>
+        <button onclick="location.href='/'">Logout</button>
+        <br>press "c" to start the game
+        <br> Press "spacebar" or "mouse left click" to jump<br> Press "x" to use "invisible ability" while the big block tries to hit you<br>press "s" to activate super power(available if you have 20 points from last super power used and lasts for 5 seconds)<br>If
+        you have super power available the player color changes to rose<br> press "p" to pause game
+        <p id="score">Score:</p>
+    </div>
+
+
+</body>
+<script src="../scripts/game.js"></script>
+
+</html>
