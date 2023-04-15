@@ -11,6 +11,16 @@ This game uses MySql to store game scores, you have to edit the db name, usernam
 <li><code>node app</code> to turn on the server</li>
 <li>Search "localhost:3000" in a browser to run the game</li>
 
+<h2> This game saves user data on mysql database</h2>
+<h3>Edit app.js with appropirate database credentials</h3>
+<h3>Create a table "players" with following properties:</h3>
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| name     | varchar(20) | YES  |     | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
+| score    | int         | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
 </ul>
 <h2>Game instructions</h2>
 press "c" to start the game
