@@ -14,13 +14,14 @@ This game uses MySql to store game scores, you have to edit the db name, usernam
 <h2> This game saves user data on mysql database</h2>
 <h3>Edit app.js with appropirate database credentials</h3>
 <h3>Create a table "players" with following properties:</h3>
-+----------+-------------+------+-----+---------+-------+<br>
-| Field    | Type        | Null | Key | Default | Extra &nbsp&nbsp&nbsp&nbsp&nbsp| <br>
-+----------+-------------+------+-----+---------+-------+ <br>
-| name     | varchar(20) | YES  |     | NULL    |       | <br>
-| password | varchar(20) | YES  |     | NULL    |       | <br>
-| score    | int         | YES  |     | NULL    |       | <br>
-+----------+-------------+------+-----+---------+-------+ <br>
+<pre>
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| name     | varchar(20) | YES  |     | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
+| score    | int         | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+</pre>
 </ul>
 <h2>Game instructions</h2>
 press "c" to start the game
